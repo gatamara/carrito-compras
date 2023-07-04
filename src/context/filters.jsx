@@ -14,7 +14,7 @@ export function FiltersProvider({ children }) {
     return (
         <FilterContext.Provider value={{ filters, setFilters }}  >
             {children}
-            \  </FilterContext.Provider>
+        </FilterContext.Provider>
     )
 
 }
